@@ -1,0 +1,19 @@
+{
+    "name": "aliop700/numvonverter",
+    "description": "convert numvbers into coreespending excel chars",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alimsafi95",
+            "email": "alimsafi95@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aliop700\\Converter\\": "src/"
+        }
+    }
+}
