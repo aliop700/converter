@@ -1,5 +1,5 @@
 {
-    "name": "aliop700/numvonverter",
+    "name": "aliop700/numconverter",
     "description": "convert numvbers into coreespending excel chars",
     "type": "library",
     "license": "MIT",
@@ -14,6 +14,13 @@
     "autoload": {
         "psr-4": {
             "Aliop700\\Converter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aliop700\\Converter\\ConverterServcieProvider"
+            ]
         }
     }
 }
